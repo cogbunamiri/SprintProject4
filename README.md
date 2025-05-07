@@ -24,7 +24,19 @@ It allows users to view and analyze price and mileage data using interactive vis
    ```bash
    git clone https://github.com/cogbunamiri/SprintProject4.git
    cd SprintProject4
-   ## Project Deployment
+
+2. Create and Activate a Virtual Environment:
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Install Required Packages:
+   pip install -r requirements.txt
+
+4. Launch The Streamline App:
+   streamlit run app.py
+
+   
+## Project Deployment
 
 The app is deployed using Render and can be accessed at:
 
